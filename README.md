@@ -1,7 +1,9 @@
 # AI Tutor 
 
 <<<<<<< HEAD
-A minimal CLI AI Tutor with simple prompts, API calls, and structured outputs. Uses OpenAI if `OPENAI_API_KEY` is set; otherwise can fall back to local Ollama.
+A minimal and user-friendly command-line AI Tutor designed to provide clear, structured explanations and examples. Users can ask questions directly from the terminal and receive concise, well-formatted answers.
+
+The tool automatically uses OpenAI when an OPENAI_API_KEY is available, and seamlessly switches to Ollama for local, offline usage.
 =======
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/archana-gurimitkala/ai-tutor/blob/main/colab_demo.ipynb)
 
