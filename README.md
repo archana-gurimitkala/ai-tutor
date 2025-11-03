@@ -1,6 +1,6 @@
 # AI Tutor 
 
-A minimal CLI AI Tutor inspired by Week 1 principles: simple prompts, API calls, and structured outputs. Uses OpenAI if `OPENAI_API_KEY` is set; otherwise can fall back to local Ollama.
+A minimal CLI AI Tutor with simple prompts, API calls, and structured outputs. Uses OpenAI if `OPENAI_API_KEY` is set; otherwise can fall back to local Ollama.
 
 ## Quickstart
 
