@@ -63,25 +63,6 @@ Goodbye!
 ### Ollama Example
 ![Ollama Q&A Screenshot](assets/ollama_output.png)
 ```text
-Type your AI questions (type 'exit' to quit):
-
-You: What is neural network?
-
-Tutor:
-A neural network is a computing system inspired by the brain. It's made of interconnected nodes (neurons) organized in layers: input, hidden, and output layers. Each connection has a weight that adjusts during training.
-
-Example: In image recognition, an input layer receives pixel values, hidden layers detect edges and shapes, and the output layer identifies the object (like "cat" or "dog"). The network learns by adjusting weights through backpropagation to minimize prediction errors.
-
-You: How does backpropagation work?
-
-Tutor:
-Backpropagation trains neural networks by calculating errors at the output and propagating them backward to update weights. It uses the chain rule of calculus to compute gradients efficiently.
-
-Example: When predicting "cat" but the label is "dog", the output error is calculated. This error flows backward through layers, updating each weight proportionally to its contribution to the error. Over many iterations, the network learns correct patterns.
-
-You: exit
-Goodbye!
-```
 
 ## Backends
 The app auto-detects the backend. Set `TUTOR_BACKEND` to force one.
